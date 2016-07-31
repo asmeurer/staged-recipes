@@ -1,4 +1,7 @@
-./configure --prefix="$PREFIX"
+#!/bin/bash
+
+bash configure --prefix="$PREFIX"
+
 make
-make install
 make check
+make install
